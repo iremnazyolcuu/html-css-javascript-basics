@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="images/spiderman-icon.png">
+    <title>Demo Website Title</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header style="background-color:magenta">
+        <h1>Welcome to Demo Spiderman Fan Page</h1>
+    </header>
+    <hr>
+    <br>
+
+    <!-- headings -->
+    <h1>demo h1 heading</h1>
+    <h6>demo h6 heading</h6>
+    <hr>
+    <br>
+
+    <!-- paragraphs -->
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis enim excepturi quam iusto nemo sed
+        laboriosam eveniet. Est minus exercitationem blanditiis alias illum sed ipsa dicta deleniti distinctio. Fuga,
+        unde.</p>
+    <hr>
+    <br>
+
+    <!-- links -->
+    <a href="https://www.imdb.com/" target="_blank" title="Goes to IMDB"> Click here to teleport! </a>
+    <hr>
+    <br>
+
+    <!-- links & images -->
+    <a href="https://marvel.fandom.com/wiki/Spider-Cat_(Earth-999)" target="_blank">
+        <img src="images/spidercat.webp" alt="picture of the spidercat" height="300">
+    </a>
+    <hr>
+    <br>
+
+    <!-- gif -->
+    <img src="images/spidercat.gif" alt="spidercat gif" height="200">
+    <hr>
+    <br>
+
+    <!-- audio -->
+    <p>Jingle Bells</p>
+    <audio controls>
+        <source src="music/Jingle Bells.mp3">
+    </audio>
+    <hr>
+    <br>
+
+    <!-- video -->
+    <a href="https://marvels-spider-man.fandom.com/wiki/Marvel%27s_Spider-Man_2" target="_blank">
+        <video src="Marvel's Spider-Man 2 - Be Greater. Together. Trailer I PS5 Games.mp4" width="700px" controls
+            autoplay muted></video>
+    </a>
+    <hr>
+    <br>
+
+    <!-- span & div -->
+    <h1><span style="background-color:red;">This is a span title</span></h1>
+    <h1>
+        <div style="background-color: darkblue;">This is a div title</div>
+    </h1>
+    <hr>
+    <br>
+
+    <!-- Unordered List -->
+    <h4>Groceries</h4>
+    <ul>
+        <li>milk</li>
+        <li>eggs</li>
+        <li>bread</li>
+        <li>coffee supplies</li>
+        <ul>
+            <li>coffee beans</li>
+            <li>creamer</li>
+            <li>sugar</li>
+        </ul>
+    </ul>
+    <hr>
+    <br>
+
+    <!-- Ordered List -->
+    <h4>To-do List</h4>
+    <ol>
+        <li>eat breakfast</li>
+        <li>pet the cat</li>
+        <li>write code</li>
+    </ol>
+    <hr>
+    <br>
+
+    <!-- Description List -->
+    <h4>Cute Animals</h4>
+    <dl>
+        <dt>dog</dt>
+        <dd>The dog is a domesticated descendant of the wolf.</dd>
+
+        <dt>cat</dt>
+        <dd>The cat (Felis catus), commonly referred to as the domestic cat or house cat, is the only domesticated
+            species in the family Felidae.</dd>
+
+        <dt>panda</dt>
+        <dd>The giant panda (Ailuropoda melanoleuca), sometimes called a panda bear or simply panda, is a bear species
+            endemic to China.</dd>
+
+        <dt>parrot</dt>
+        <dd>Parrots (Psittaciformes), also known as psittacines are birds with a strong curved beak, upright stance, and
+            clawed feet.</dd>
+    </dl>
+    <hr>
+    <br>
+
+    <!-- tables -->
+    <h3>Coding Schedule</h3>
+    <table border="1" style="background-color:black">
+        <tr align="center" style="background-color:lightblue">
+            <th width="100">Monday</th>
+            <th width="100">Tuesday</th>
+            <th width="100">Wednesday</th>
+            <th width="100">Thursday</th>
+            <th width="100">Friday</th>
+        </tr>
+        <tr align="center" style="background-color:aliceblue">
+            <td>13-17</td>
+            <td>14-18</td>
+            <td>15-22</td>
+            <td>14-20</td>
+            <td>12-18</td>
+        </tr>
+    </table>
+    <hr>
+    <br>
+
+    <!-- buttons -->
+    <a href="https://www.youtube.com/" target="_blank">
+        <button style="font-size: 20px; background-color:magenta; border-radius: 25px;"> Click here </button>
+    </a>
+    <hr>
+    <br>
+
+    <!-- forms -->
+    <form action="index.php" method="POST">
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="Enter your username" minlength="6" maxlength="16"
+            required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email"><br><br>
+
+        <label for="phone">Phone number:</label>
+        <input type="tel" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
+
+        <label for="bday">Birthdate:</label>
+        <input type="date" id="bday"><br><br>
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" min="0" max="99" value="1"><br><br>
+
+        <label for="title">Title:</label>
+        <label for="Mr.">Mr.</label>
+        <input type="radio" id="Mr." value="Mr." name="title">
+        <label for="Ms.">Ms.</label>
+        <input type="radio" id="Ms." value="Ms." name="title">
+        <label for="PhD.">PhD.</label>
+        <input type="radio" id="PhD." value="PhD." name="title"><br><br>
+
+        <label for="payment">Payment:</label>
+        <select id="payment">
+            <option value="Visa">Visa</option>
+            <option value="Mastercard">Visa</option>
+            <option value="Giftcard">Visa</option>
+        </select><br><br>
+
+        <label for="subscribe">Subscribe:</label>
+        <input type="checkbox" id="subscribe"><br><br>
+
+        <label for="comment">Comment:</label>
+        <textarea id="comment" rows="8" cols="60"></textarea><br><br>
+
+        <label for="file">File:</label>
+        <input type="file" id="file"><br><br>
+
+        <input type="reset" value="Clear Form">
+        <input type="submit" value="Send Form">
+
+    </form>
+    <hr>
+    <br>
+
+    <!-- footer -->
+    <footer style="background-color:magenta">
+        <b>Author: Iremnaz</b><br>
+        <b>&copy; Copyright Reserved</b>
+    </footer>
+
+</body>
+
+</html>
